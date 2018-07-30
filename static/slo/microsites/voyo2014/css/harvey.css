@@ -1,0 +1,472 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700&subset=latin,latin-ext);
+.hasAccess .voyo-svet-bonitet .header {
+  padding-top: 100px; }
+
+.voyo-svet-bonitet {
+  font-family: "Source Sans Pro", sans-serif;
+  margin-bottom: 150px; }
+  .voyo-svet-bonitet .price-ext, .voyo-svet-bonitet .products .product .info .price, .voyo-svet-bonitet .more-specs .content .price {
+    font-size: 15px;
+    font-weight: lighter;
+    color: #000;
+    margin-top: 8px; }
+  .voyo-svet-bonitet .discount-ext, .voyo-svet-bonitet .products .product .info .discount, .voyo-svet-bonitet .more-specs .content .discount {
+    margin-top: 8px;
+    font-size: 16px;
+    font-weight: lighter;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.15);
+    padding-bottom: 10px; }
+    .voyo-svet-bonitet .discount-ext span, .voyo-svet-bonitet .products .product .info .discount span, .voyo-svet-bonitet .more-specs .content .discount span {
+      font-weight: bold;
+      font-size: 18px; }
+  .voyo-svet-bonitet .price-voyo-ext, .voyo-svet-bonitet .products .product .price-voyo, .voyo-svet-bonitet .more-specs .content .price-voyo {
+    background: #e6e6e6;
+    position: relative;
+    padding: 4px 0;
+    margin-top: 6px;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out; }
+    .voyo-svet-bonitet .price-voyo-ext:after, .voyo-svet-bonitet .products .product .price-voyo:after, .voyo-svet-bonitet .more-specs .content .price-voyo:after {
+      content: "";
+      top: 0;
+      position: absolute;
+      display: block;
+      border: 14px solid #e6e6e6;
+      right: -14px;
+      border-right-color: transparent; }
+    .voyo-svet-bonitet .price-voyo-ext span, .voyo-svet-bonitet .products .product .price-voyo span, .voyo-svet-bonitet .more-specs .content .price-voyo span {
+      font-weight: bold; }
+  .voyo-svet-bonitet p a {
+    color: #000;
+    border-bottom: 2px solid #2776D0; }
+    .voyo-svet-bonitet p a:hover {
+      border-bottom-color: #000; }
+  .voyo-svet-bonitet .padding-lr-20 {
+    padding-left: 20px;
+    padding-right: 20px; }
+  .voyo-svet-bonitet .btn {
+    color: #fff;
+    background-color: #2776D0;
+    text-transform: uppercase;
+    font-size: 14px;
+    border: none; }
+    .voyo-svet-bonitet .btn:hover {
+      background-color: #236abb; }
+  .voyo-svet-bonitet .header {
+    background: #153159 url("/static/slo/microsites/voyo2014/img/bigbang/bgbb.jpg") no-repeat center;
+/*    background: #1873D5 url("/static/slo/microsites/voyo2014/img/svet-bonitet/pattern.png");*/
+    padding-top: 190px;
+    margin-bottom: 40px;
+    color: #fff; }
+    .voyo-svet-bonitet .header .logo {
+      background: url("/static/slo/microsites/voyo2014/img/bigbang/shadow.png") no-repeat center bottom/100% 7px transparent; }
+      .voyo-svet-bonitet .header .logo img {
+        margin-bottom: 30px; 
+        margin-top: 10px;
+    }
+    .voyo-svet-bonitet .header .first-txt p {
+      font-weight: lighter;
+      font-size: 32px;
+      text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.9);
+      margin-bottom: 30px;
+      margin-top: 20px;
+      padding: 0 40px; }
+    .voyo-svet-bonitet .header .btn {
+      color: #000;
+      background: #fff;
+      font-size: 26px;
+      text-transform: uppercase;
+      font-weight: bold;
+      border: 3px solid #fff;
+      padding-left: 35px;
+      padding-right: 35px;
+      -moz-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.9);
+      -webkit-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.9);
+      box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.9); }
+      .voyo-svet-bonitet .header .btn:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+        color: #fff; }
+      .voyo-svet-bonitet .header .btn span {
+        font-size: 22px; }
+    .voyo-svet-bonitet .header .bottom-txt {
+/*      background: rgba(0, 0, 0, 0.4);*/
+      padding: 15px 0; }
+      .voyo-svet-bonitet .header .bottom-txt p {
+        font-size: 26px;
+        font-weight: lighter;
+        text-transform: uppercase;
+        margin-bottom: 0;
+        text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.9); }
+        .voyo-svet-bonitet .header .bottom-txt p img {
+          position: relative;
+          top: -2px; }
+  .voyo-svet-bonitet .box {
+    padding: 20px;
+    margin-bottom: 40px;
+    background: #fff;
+    border-top: 4px solid #2776D0;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    -moz-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2); }
+  .voyo-svet-bonitet .notice img.logo {
+    width: 280px; }
+  .voyo-svet-bonitet .notice p {
+    font-size: 18px;
+    color: #000;
+    margin: 24px 0; }
+    .voyo-svet-bonitet .notice p:first-child {
+      border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+      padding-bottom: 24px; }
+  .voyo-svet-bonitet .notice .row {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center; }
+  .voyo-svet-bonitet .products h1 {
+    color: #000;
+    text-align: center;
+    font-size: 24px;
+    font-weight: lighter;
+    line-height: 32px;
+    margin: 0; }
+    .voyo-svet-bonitet .products h1 span {
+      display: block;
+      text-transform: uppercase;
+      font-weight: bold;
+      letter-spacing: 1px; }
+  .voyo-svet-bonitet .products .product {
+    margin-top: 30px;
+    background: #fff;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    -moz-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out; }
+    .voyo-svet-bonitet .products .product:hover .more-overlay {
+      opacity: 1 !important; }
+    .voyo-svet-bonitet .products .product:hover {
+      -moz-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.3);
+      -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.3);
+      box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.3);
+      -moz-transform: translateY(-8px);
+      -ms-transform: translateY(-8px);
+      -webkit-transform: translateY(-8px);
+      transform: translateY(-8px); }
+    .voyo-svet-bonitet .products .product.active {
+      -moz-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.3);
+      -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.3);
+      box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.3);
+      -moz-transform: translateY(-8px);
+      -ms-transform: translateY(-8px);
+      -webkit-transform: translateY(-8px);
+      transform: translateY(-8px); }
+      .voyo-svet-bonitet .products .product.active .price-voyo {
+        color: #fff;
+        background: #2776D0; }
+        .voyo-svet-bonitet .products .product.active .price-voyo:after {
+          content: "";
+          top: 0;
+          position: absolute;
+          display: block;
+          border: 14px solid #2776D0;
+          right: -14px;
+          border-right-color: transparent; }
+    .voyo-svet-bonitet .products .product .recommend {
+      width: 140px;
+      height: 140px;
+      overflow: hidden;
+      position: absolute;
+      top: 0;
+      right: 0; }
+      .voyo-svet-bonitet .products .product .recommend div {
+        font-weight: bold;
+        color: #fff;
+        background: #2776D0;
+        font-size: 16px;
+        padding: 6px 40px;
+        -moz-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+        position: absolute;
+        top: 33px;
+        right: -46px;
+        z-index: 1; }
+    .voyo-svet-bonitet .products .product .image {
+      padding-top: 20px;
+      margin-bottom: 20px;
+      position: relative; }
+      .voyo-svet-bonitet .products .product .image .more-overlay {
+        opacity: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.8);
+        -moz-border-radius-topleft: 4px;
+        -webkit-border-top-left-radius: 4px;
+        border-top-left-radius: 4px;
+        -moz-border-radius-topright: 4px;
+        -webkit-border-top-right-radius: 4px;
+        border-top-right-radius: 4px;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-align-items: center;
+        align-items: center;
+        transition: all 0.3s ease-in-out; }
+        .voyo-svet-bonitet .products .product .image .more-overlay:hover .btn {
+          background: #fff;
+          color: #000; }
+        .voyo-svet-bonitet .products .product .image .more-overlay .btn {
+          cursor: pointer;
+          margin: 0 auto;
+          background: none;
+          border: 3px solid #fff;
+          font-size: 18px;
+          font-weight: bold; }
+      .voyo-svet-bonitet .products .product .image img {
+        width: 80%; }
+    .voyo-svet-bonitet .products .product .info {
+      color: #000; }
+      .voyo-svet-bonitet .products .product .info h2.title {
+        font-size: 16px;
+        font-weight: bold;
+        margin: 0 0 5px 0; }
+      .voyo-svet-bonitet .products .product .info p {
+        border-bottom: 2px solid rgba(0, 0, 0, 0.15);
+        padding-bottom: 10px;
+        color: #9A9A9A;
+        font-weight: lighter; }
+        .voyo-svet-bonitet .products .product .info p span {
+          color: #000; }
+    .voyo-svet-bonitet .products .product .btn {
+      margin: 20px 0; }
+  .voyo-svet-bonitet .more-specs {
+    background: #fff;
+    margin: 30px 0 0 0;
+    padding: 30px 0; }
+    .voyo-svet-bonitet .more-specs .image {
+      padding: 20px;
+      border: 1px solid rgba(0, 0, 0, 0.1);
+      -moz-border-radius: 4px;
+      -webkit-border-radius: 4px;
+      border-radius: 4px; }
+    .voyo-svet-bonitet .more-specs .content {
+      color: #000; }
+      .voyo-svet-bonitet .more-specs .content h1.title {
+        font-size: 28px;
+        font-weight: bold;
+        margin: 0 0 20px 0;
+        padding-bottom: 10px;
+        border-bottom: 2px solid rgba(0, 0, 0, 0.15); }
+        .voyo-svet-bonitet .more-specs .content h1.title a.close-btn img {
+          width: 26px;
+          -moz-transition: all 0.3s ease-in-out;
+          -o-transition: all 0.3s ease-in-out;
+          -webkit-transition: all 0.3s ease-in-out;
+          transition: all 0.3s ease-in-out; }
+        .voyo-svet-bonitet .more-specs .content h1.title a.close-btn:hover img {
+          opacity: 0.4;
+          -moz-transform: rotate(180deg);
+          -ms-transform: rotate(180deg);
+          -webkit-transform: rotate(180deg);
+          transform: rotate(180deg); }
+      .voyo-svet-bonitet .more-specs .content p {
+        font-size: 18px;
+        color: #000;
+        margin: 0 0 20px 0;
+        padding-bottom: 20px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+      .voyo-svet-bonitet .more-specs .content table {
+        font-size: 16px;
+        color: #000; }
+        .voyo-svet-bonitet .more-specs .content table tr th, .voyo-svet-bonitet .more-specs .content table tr td {
+          width: 50%; }
+        .voyo-svet-bonitet .more-specs .content table tr td {
+          border-right: none; }
+        .voyo-svet-bonitet .more-specs .content table tr td {
+          border-left: none; }
+          .voyo-svet-bonitet .more-specs .content table tr td:last-child {
+            font-weight: bold;
+            text-align: right; }
+      .voyo-svet-bonitet .more-specs .content .panel-default {
+        border-color: rgba(0, 0, 0, 0.1); }
+      .voyo-svet-bonitet .more-specs .content .price {
+        margin-top: 0;
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px; 
+        border-bottom: 2px solid rgba(0, 0, 0, 0.15);}
+      .voyo-svet-bonitet .more-specs .content .discount {
+        padding-left: 10px;
+        margin-bottom: 20px; }
+      .voyo-svet-bonitet .more-specs .content .price-voyo {
+        padding-left: 10px;
+        color: #fff;
+        background: #2776D0; }
+        .voyo-svet-bonitet .more-specs .content .price-voyo:after {
+          content: "";
+          top: 0;
+          position: absolute;
+          display: block;
+          border: 14px solid #2776D0;
+          right: -14px;
+          border-right-color: transparent; }
+  .voyo-svet-bonitet .yourCode {
+    color: #000; }
+    .voyo-svet-bonitet .yourCode .modal-body {
+      background: #f8f8f8; }
+    .voyo-svet-bonitet .yourCode .btn {
+      margin-bottom: 20px; }
+      .voyo-svet-bonitet .yourCode .btn span {
+        margin-right: 6px; }
+    .voyo-svet-bonitet .yourCode .btn.print {
+      margin-right: 10px; }
+    .voyo-svet-bonitet .yourCode img.logo {
+      width: 40%;
+      margin-top: 20px;
+      margin-bottom: 20px; }
+    .voyo-svet-bonitet .yourCode .code {
+      background: #fff;
+      -moz-border-radius: 4px;
+      -webkit-border-radius: 4px;
+      border-radius: 4px;
+      -moz-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+      -webkit-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+      box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);
+      display: -webkit-flex;
+      display: flex;
+      -webkit-align-items: center;
+      align-items: center;
+      margin-bottom: 20px; }
+    .voyo-svet-bonitet .yourCode .txt {
+      display: inline-block;
+      width: 40%;
+      font-size: 18px;
+      font-weight: lighter;
+      border-right: 1px solid rgba(0, 0, 0, 0.1);
+      padding: 8px;
+      color: #BDBDBD; }
+      .voyo-svet-bonitet .yourCode .txt span {
+        position: relative;
+        top: 3px; }
+    .voyo-svet-bonitet .yourCode .code-txt {
+      display: inline-block;
+      width: 60%;
+      font-size: 26px;
+      font-weight: bold; }
+    .voyo-svet-bonitet .yourCode ul {
+      text-align: left;
+      margin-bottom: 20px; }
+      .voyo-svet-bonitet .yourCode ul li {
+        margin-bottom: 14px;
+        font-size: 14px;
+        color: #333; }
+        .voyo-svet-bonitet .yourCode ul li:last-child {
+          margin-bottom: 0; }
+  .voyo-svet-bonitet img.voyo-logo {
+    width: 110px;
+    opacity: 0.2; }
+  .voyo-svet-bonitet #notUser h1 {
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 20px 0 0 0; }
+    .voyo-svet-bonitet #notUser h1 img {
+      width: 112px;
+      position: relative;
+      margin: 0 4px;
+      top: -2px; }
+  .voyo-svet-bonitet #notUser hr.hr-gradient {
+    margin: 10px 0; }
+  .voyo-svet-bonitet #notUser p {
+    font-size: 24px;
+    font-weight: lighter;
+    margin: 0 0 20px 0; }
+
+/*.voyo-svet-bonitet .container .products .row .columns {
+      width: 20%;
+      float: left;
+    }*/
+
+@-webkit-keyframes bg-position {
+  0% {
+    background-position: 0 0; }
+  100% {
+    background-position: 0 -450px; } }
+@-moz-keyframes bg-position {
+  0% {
+    background-position: 0 0; }
+  100% {
+    background-position: 0 -450px; } }
+@-ms-keyframes bg-position {
+  0% {
+    background-position: 0 0; }
+  100% {
+    background-position: 0 -450px; } }
+@keyframes bg-position {
+  0% {
+    background-position: 0 0; }
+  100% {
+    background-position: 0 -450px; } }
+@media print {
+  .container {
+    display: none; 
+  } #footer {
+   display: none;
+   visibility: hidden;
+ }
+
+ #footer-open {
+   display: none;
+    visibility: hidden;
+ }}
+@media (max-width: 1600px) {
+  .voyo-svet-bonitet .header {
+    padding-top: 220px; }
+
+  .voyo-svet-bonitet .w100 {
+    width: 100%;
+    margin-left: 0; } }
+@media (max-width: 1200px) {
+  .voyo-svet-bonitet .more-specs .image {
+    margin-bottom: 20px; }
+
+  .voyo-svet-bonitet .more-specs .content .btn {
+    margin-bottom: 20px; }
+
+  .voyo-svet-bonitet .notice .row {
+    display: inherit !important;
+    align-items: inherit !important; } }
+@media (max-width: 992px) {
+  .voyo-svet-bonitet .header {
+    padding-top: 140px; }
+
+  .voyo-svet-bonitet .header .bottom-txt p {
+    font-size: 22px; } }
+@media (max-width: 767px) {
+  .voyo-svet-bonitet .header {
+    padding-top: 100px; } }
+@media (max-width: 480px) {
+  .voyo-svet-bonitet .header .first-txt p {
+    font-size: 24px;
+    padding: 0; } }
+
+@media (min-width: 1200px) {
+  .col-lg-offset-5 {
+    margin-left: 0;}
+
+    @media (min-width: 1200px) {
+.col-lg-2 {
+    width: 20%;}
