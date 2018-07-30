@@ -1,0 +1,519 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-bottom: 40px;
+  color: #5a5a5a;
+}
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  /*height: 1040px;*/
+  margin-bottom: 0;
+  background-image: url(../img/header-bg.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  z-index: 98;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+	background: transparent;
+}
+.carousel .item .container,
+.carousel .item .container .carousel-caption  {
+	width: 960px !important;
+	max-width: 960px !important;
+}
+.carousel .item .container .carousel-caption {
+	left: 50%;
+	right: auto;
+	margin-left: -375px;
+}
+.carousel-inner > .item > img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	min-width: 100%;
+}
+.carousel .video-item {
+	width: 750px;
+}
+.carousel .video-item-small {
+	width: auto;
+	height: auto;
+}
+.carousel .video-item a {
+	margin: 0;
+}
+.carousel-caption {
+	padding-top: 0;
+	padding-bottom: 50px;
+	text-align: left;
+}
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Pad the edges of the mobile views a bit */
+.marketing {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+
+  /* Remove the edge padding needed for mobile */
+  .marketing {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 20px;
+  }
+  .navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left:  15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left:  0;
+  }
+
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 120px;
+  }
+}
+.carousel-caption .text-content {
+	padding-bottom: 140px;
+}
+.carousel-caption h1 {
+	margin-top: 0;
+}
+.carousel-indicators {
+	bottom: 0;
+}
+.carousel .item-full {
+	 background-position: center;
+	 background-repeat: no-repeat;
+	 background-size: 100% auto;
+}
+.carousel .item-full .container,
+.carousel .item-full .container .carousel-caption {
+	width: 1585px !important;
+	max-width: 1585px !important;
+}
+.carousel .item-full .container .carousel-caption {
+	margin-left: -770px;
+	text-align: left;
+	margin-bottom: 50px;
+}
+.carousel .item-grid {
+	width: 100%;
+	height: 686px;
+}
+.carousel .item-grid .container,
+.carousel .item-grid .container .carousel-caption {
+	width: 100% !important;
+	max-width: 100% !important;
+	margin: 0;
+	padding: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	top: 0;
+}
+.carousel .item-grid .container .carousel-caption {
+	margin-left: 0;
+	text-align: left;
+	margin-bottom: 0;
+}
+.carousel .item-grid .video-item {
+	width: auto;
+	height: auto;
+}
+.carousel .item-grid .carousel-caption .row {
+	margin: 0;
+}
+.carousel .item-grid .carousel-caption .row > div {
+	padding: 0;
+}
+.carousel-control {
+	z-index: 99;
+}
+.carousel .item-grid .video-item:hover {
+	z-index: 2;
+	box-shadow: 0 11px 18px rgba(0,0,0,0);
+	-webkit-transform: translateY(0) scale(1, 1);
+		 -moz-transform: translateY(0) scale(1, 1);
+					transform: translateY(0) scale(1, 1);
+}
+.carousel .item-grid .video-item h1 {
+	-webkit-transition: all 0.2s ease-in-out;
+		 -moz-transition: all 0.2s ease-in-out;
+			 -o-transition: all 0.2s ease-in-out;
+					transition: all 0.2s ease-in-out;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+.carousel .item-grid .video-item:hover h1 {
+	padding-bottom: 80px;
+}
+.carousel-control {
+	width: 4%;
+}
+
+
+
+
+/* Main carousel style */
+/*.carousel {
+    width: 600px;
+}*/
+
+/* Indicators list style */
+.header-slide .carousel-indicators-frame {
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: 0;
+	width: 100%;
+	/*background-color: #222;*/
+	
+	/*border-bottom: 1px solid #222;*/
+	-webkit-box-shadow: 0px -3px 6px 0px rgba(0, 0, 0, 0.5);
+		 -moz-box-shadow: 0px -3px 6px 0px rgba(0, 0, 0, 0.5);
+					box-shadow: 0px -3px 6px 0px rgba(0, 0, 0, 0.5);
+	z-index: 100;
+	position: absolute;
+}
+.header-slide .carousel-indicators {
+	display: block;
+	margin: 0;
+	padding: 0;
+	height: 15px;
+	width: 100%;
+	left: 0;
+	right: 0;
+	top: 0;
+	position: relative;
+	overflow: hidden;
+	-webkit-transition: all 0.2s ease-in-out;
+		 -moz-transition: all 0.2s ease-in-out;
+			 -o-transition: all 0.2s ease-in-out;
+					transition: all 0.2s ease-in-out;
+}
+.header-slide .carousel-indicators-frame:hover .carousel-indicators {
+	height: 90px;
+}
+/* Indicators list style */
+.header-slide .carousel-indicators li {
+	border: medium none;
+	border-radius: 0;
+	float: left;
+	height: 90px;
+	margin: 0;
+	width: 12.5%;
+	text-indent: 0;
+	overflow: hidden;
+	position: relative;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+}
+/* Indicators images style */
+.header-slide .carousel-indicators li {
+	border-left: 1px solid #111;
+	background-color: #222;
+}
+.header-slide .carousel-indicators li:first-child {
+	border-left: none;
+}
+.header-slide .carousel-indicators li .indicator {
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	height: 15px;
+	/*background-color: rgba(30,30,30,0.8);*/
+	background-color: #333;
+	-webkit-transition: all 0.2s ease-in-out;
+		 -moz-transition: all 0.2s ease-in-out;
+			 -o-transition: all 0.2s ease-in-out;
+					transition: all 0.2s ease-in-out;
+	z-index: 2;
+}
+.header-slide .carousel-indicators li.active .indicator {
+	background-color: #2776d0;
+}
+.header-slide .carousel-indicators:hover li .indicator {
+	opacity: 0;
+	height: 7px;
+}
+.header-slide .carousel-indicators:hover li.active .indicator {
+	opacity: 1;
+}
+.header-slide .carousel-indicators li .title {
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0, 0, 0, .8);
+	color: #fff;
+	-webkit-transition: all 0.2s ease-in-out;
+		 -moz-transition: all 0.2s ease-in-out;
+			 -o-transition: all 0.2s ease-in-out;
+					transition: all 0.2s ease-in-out;
+	opacity: 0;
+	padding: 15px;
+	text-transform: uppercase;
+	z-index: 1;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 16px;
+	line-height: 18px;
+	font-weight: bold;
+}
+.header-slide .carousel-indicators li .title span {
+	display: block;
+	position: absolute;
+	left: 15px;
+	right: 15px;
+	top: 50%;
+	-webkit-transform: translateY(-50%); /* Chrome, Safari, Opera */
+	-ms-transform: translateY(-50%); /* IE 9 */
+	transform: translateY(-50%);
+}
+.header-slide .carousel-indicators:hover li:hover .title,
+.header-slide .carousel-indicators:hover li.active .title {
+	opacity: 1;
+	background-color: #2776d0;
+}
+.carousel-caption {
+	display: block;
+	visibility: visible;
+	width: 450px;
+	left: 8.4%;
+	position: absolute;
+	
+	top: 50%;
+	-webkit-transform: translateY(-50%); /* Chrome, Safari, Opera */
+	-ms-transform: translateY(-50%); /* IE 9 */
+	transform: translateY(-50%);
+}
+.carousel .carousel-caption .options {
+    padding-top: 16px;
+    padding-bottom: 10px;
+}
+.carousel .carousel-caption .options, .carousel .text-block .sub-title {
+    color: white !important;
+    display: block;
+    font-size: 15px !important;
+    font-weight: 400;
+    line-height: 18px !important;
+}
+.carousel-caption .options.tunein .accent {
+    background: none repeat scroll 0 0 #2776d0;
+    color: #2776d0;
+    display: block;
+    font-size: 1px;
+    height: 5px;
+    width: 35px;
+    -webkit-border-radius: 999em;
+    	 -moz-border-radius: 999em;
+    				border-radius: 999em;
+    margin-top: 7px;
+}
+.carousel .carousel-caption.font-medium .title {
+    font-size: 50px;
+    line-height: 42px;
+    padding-bottom: 13px;
+    padding-top: 7px;
+}
+.carousel .carousel-caption .title {
+    clear: both;
+    color: #fff;
+    display: block;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 44px;
+}
+.carousel .carousel-caption .title u {
+    text-decoration: none;
+}
+.carousel .carousel-caption .options, .carousel .text-block .sub-title {
+    color: white !important;
+    display: block;
+    font-size: 15px !important;
+    font-weight: 400;
+    line-height: 18px !important;
+}
+.carousel .carousel-caption .sub-title {
+    color: #fff;
+    display: block;
+    padding: 5px 0 0;
+    text-transform: none;
+}
+.carousel-caption .options.more-info a.video {
+    /*background: url("/assets/images/lib/icons/play-red_7x11.png") no-repeat scroll left center transparent;*/
+}
+.carousel-caption .options.more-info a.details,
+.carousel-caption .options.more-info a.more,
+.carousel-caption .options.more-info a.video {
+   /* background: url("/assets/images/lib/icons/disclosure-red_11x7.png") no-repeat scroll left center transparent;*/
+    font-size: 13px !important;
+    font-weight: 600;
+}
+.carousel-caption .options a {
+    color: rgba(255, 255, 255, 1);
+    border-color: rgba(39, 118, 208, 1);
+    background-color: rgba(39, 118, 208, 1) !important;
+    border: none;
+    box-shadow: 0 0 30px #2776d0;
+}
+.carousel-caption .options a:hover {
+	color: rgba(39, 118, 208, 1);
+	background-color: rgba(255, 255, 255, 1) !important;
+}
+.carousel-caption {
+	background-image: url(../img/carousel-caption-bg.svg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	padding: 50px 80px;
+	bottom: auto;
+	right: auto;
+	width: auto;
+	height: auto;
+	max-width: 570px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.transition-timer-carousel .carousel-indicators {
+	bottom: 0px;
+	/*margin-bottom: 5px;*/
+}
+.transition-timer-carousel .carousel-indicators ol {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+.transition-timer-carousel .transition-timer-carousel-progress-bar {
+	height: 3px;
+	background-color: rgba(39, 118, 208, .85);
+	width: 0%;
+	margin: 0;
+	border: none;
+	z-index: 11;
+	position: relative;
+}
+.transition-timer-carousel .transition-timer-carousel-progress-bar.animate {
+	/* We make the transition time shorter to avoid the slide transitioning
+	before the timer bar is "full" - change the 4.25s here to fit your
+	carousel's transition time */
+	-webkit-transition: width 4.25s linear;
+	-moz-transition: width 4.25s linear;
+	-o-transition: width 4.25s linear;
+	transition: width 4.25s linear;
+}
